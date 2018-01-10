@@ -1,0 +1,28 @@
+.Header__menu {
+    list-style-type: none;
+    display: flex;
+    padding-bottom: 0;
+}
+
+.Header__menu > li > a {
+    padding-left: 15px;
+    font-size: 1.5em;
+    text-decoration: none;
+    color: #424242;
+}
+
+
+.Header {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 3px solid #3F51B5;
+    color: #424242;
+    padding: 15px;
+}
+
+.Header__menu>li>a:hover {
+    border-bottom: 3px solid orangered;
+}
+.Header__text h1, .Header__menu>li {
+    align-self: flex-end;
+}

@@ -1,0 +1,40 @@
+.Movie__cards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.Movie__card{
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.6);
+    border-radius: 5px;
+    width: 230px;
+} 
+
+.Movie__header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.Movie__genre{
+    display: flex;
+    justify-content: flex-start;
+}
+
+button {
+    padding: 5px;
+    margin: 10px;
+    background-color: #3F51B5;
+    border-radius: 2px;
+    border: none;
+}
+
+.Movie__del {
+    background-color: #FF5722;
+}
+
+.Movie__del:hover {
+    background-color: #3F51B5;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.6);
+}
